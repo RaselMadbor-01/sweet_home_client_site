@@ -37,6 +37,8 @@ import { RiShoppingBasketLine } from "react-icons/ri";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { BsChatLeftDots } from "react-icons/bs";
 import { BiLogOut } from "react-icons/bi";
+import SendIcon from '@mui/icons-material/Send';
+import { useHistory } from 'react-router-dom';
 
 
 
@@ -45,6 +47,10 @@ const drawerWidth = 240;
 const Dashboard = (props) => {
     const { window } = props;
     const {admin,logOut}=useAuth();
+    const history=useHistory();
+    const handleBackToHome=()=>{
+        history.push('/');
+    }
  
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -174,8 +180,20 @@ const Dashboard = (props) => {
             </ListItemButton>
           </ListItem>
 
+          <ListItem disablePadding style={{color:"green"}}>
+            <ListItemButton onClick={handleBackToHome}>
+              <ListItemIcon>
+               <SendIcon />
+              </ListItemIcon>
+              <ListItemText primary="Back To Home" />
+            </ListItemButton>
+          </ListItem>
+
         </List>
+       
+        
         </nav>
+        
         </Box>
      
      
