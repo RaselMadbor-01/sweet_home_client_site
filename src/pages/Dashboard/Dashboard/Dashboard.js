@@ -183,7 +183,7 @@ const Dashboard = (props) => {
           <ListItem disablePadding style={{color:"green"}}>
             <ListItemButton onClick={handleBackToHome}>
               <ListItemIcon>
-               <SendIcon />
+               <SendIcon style={{color:"green"}}/>
               </ListItemIcon>
               <ListItemText primary="Back To Home" />
             </ListItemButton>
