@@ -1,0 +1,26 @@
+.nav-link{
+    text-decoration: none;
+    color:black;
+    margin-right:15px;
+    padding-bottom: 10px;
+    font-weight:500;
+}
+.nav-link:hover{
+    border-bottom:2px solid green;
+    border-radius: 2px;
+}
+.nav-bottom-link{
+    text-decoration: none;
+    color:black;
+    margin-right:15px;
+    padding-bottom: 10px;
+    font-weight:500;
+    width:120px;
+    margin-left:auto;
+  
+}
+.nav-bottom-link:hover{
+    border-bottom:2px solid green;
+    border-radius: 2px;
+
+}

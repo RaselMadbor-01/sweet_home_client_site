@@ -1,0 +1,22 @@
+.divider-text {
+    position: relative;
+  }
+  .divider-text::before {
+    content: " ";
+    position: absolute;
+    width: 95px;
+    border-bottom: 2px solid gray;
+    top: 40%;
+    right: 53%;
+    border-radius: 10px;
+  }
+  .divider-text::after {
+    content: " ";
+    position: absolute;
+    width: 95px;
+    border-bottom: 2px solid gray;
+    top: 40%;
+    left: 53%;
+    border-radius: 10px;
+  }
+  

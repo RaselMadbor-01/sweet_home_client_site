@@ -1,0 +1,23 @@
+#file {
+  position: relative;
+  color: white;
+}
+#file::before {
+  content: "Upload Image";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 527px;
+  height: 55px;
+  background-color: #ffffff;
+  color: gray;
+  padding: 16px;
+  border-radius: 5px;
+}
+.imageIcon{
+    position:absolute;
+    /* top:0px;
+    left:0px;
+    color:red;
+    font-size:30px; */
+}

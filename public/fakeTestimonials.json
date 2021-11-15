@@ -1,0 +1,29 @@
+[{
+    "id": 1,
+    "name": "Evana Yas",
+    "image": "https://i.imgur.com/sggBz7B.png",
+    "position": "Chief Executive",
+    "description": "We will get all of the best facilities. This is one of the best and a unique company into the whole world. We have 2 flat, one is an relaxed flat and another is rent flat.",
+    "rating":5
+  }, {
+    "id": 2,
+    "name": "Nick Rogers",
+    "image": "https://i.imgur.com/nACk6uD.png",
+    "position": "Allen",
+    "description": "I wasn’t sure what my options would be when I first started looking for a new place. However, with their help I quickly learned how easy it can be to find the right house.",
+    "rating":5
+  }, {
+    "id": 3,
+    "name": "Nancy Freeman",
+    "image": "https://i.imgur.com/kWvZiai.png",
+    "position": "Lawyer",
+    "description": "If you are looking for a professional and responsible agent, GoodHomes is the right place for you. I am absolutely happy about the level of service. Thank you very much!",
+    "rating":4
+  }, {
+    "id": 4,
+    "name": "Mike Joy",
+    "image": "https://i.imgur.com/aARwXo1.png",
+    "position": "CEO, Adata Corporation",
+    "description": "I am a regular client of GoodHomes, and every time they prove their skills to be excellent! Whether I need a new studio, office or an apartment, I know who can help me!",
+    "rating":5
+  }]
